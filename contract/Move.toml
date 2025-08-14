@@ -1,0 +1,12 @@
+[package]
+name = "landledger_contracts"
+version = "0.0.1"
+
+[addresses]
+landledger = "0xb98e70c73b0976df7fa27b0a5d1230ed448c0706b57147a51566dc7a5097f30b"      # replace after first publish with your account address
+std = "0x1"
+aptos_std = "0x1"
+
+[dependencies]
+AptosFramework = { git = "https://github.com/aptos-labs/aptos-core.git", subdir = "aptos-move/framework/aptos-framework", rev = "main" }
+AptosStdlib   = { git = "https://github.com/aptos-labs/aptos-core.git", subdir = "aptos-move/framework/aptos-stdlib",   rev = "main" }
